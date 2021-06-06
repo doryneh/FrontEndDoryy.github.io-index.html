@@ -9,8 +9,8 @@ body {
 }
 
 nav.navbar {
-    background-color: rgba(255, 149, 79, .9);
-    border-bottom: 1px solid #FF954F;
+    background-color:  #4d40bde6;
+    border-bottom: 1px solid #4d40bd;
     text-align: right;
 }
 
@@ -25,16 +25,16 @@ nav.navbar ul.navbar-nav li a.nav-link {
 
 nav.navbar ul.navbar-nav li a.nav-link:hover, nav.navbar ul.navbar-nav li a.nav-link.active {
     background-color: #ffffff;
-    color: #16aeca;
+    color: #bd40b0;
   }
 
 nav.navbar.noTransparrent ul.navbar-nav li a.nav-link {
-    color: #4fb9ff;
+    color: #bd40b0;
 }
 
 nav.navbar.noTransparrent ul.navbar-nav li a.nav-link:hover, nav.navbar.noTransparrent ul.navbar-nav li a.nav-link.active{
     color: #ffffff;
-    background-color: #4fb9ff;
+    background-color: #bd40b0;
 }
 nav.navbar.noTransparrent {
     background-color: #ffffff;
@@ -46,11 +46,19 @@ nav.navbar.noTransparrent button.navbar-toggler {
 }
 
 nav.navbar.noTransparrent button.navbar-toggler span {
-    color: #0575e6;
+    color: #8b40bd;
 }
-
+nav button {
+    background-color: white !important;
+    color: #8b40bd;
+    margin-top: 20px !important;
+    margin-left: 40px !important;
+    border-radius: 4px !important;
+    height: 35px;
+    border: 2px solid #8b40bd !important;
+}
 header {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/bg4.jpg);
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -58,14 +66,14 @@ header {
 }
 
 header .MainCard {
-    background-color: #4fb9ffcc;
+    background-color: #8b40bdcc;
     color: white;
     transform: translateY(20%);
     padding: 3% 10%;
 }
 
 header .MainCard img {
-    border: 5px solid #FF954F;
+    border: 5px solid #4d40bd;
     margin-bottom: 20px;
 }
 
@@ -80,20 +88,29 @@ header .MainCard h1 span {
     font-size: 24px;
 }
 
-header .MainCard ul {
+ ul.list-inline {
     padding: 0;
     margin-bottom: 40px;
 }
 
-header .MainCard ul li {
+ ul.list-inline li {
     margin-right: 15px;
 }
-
-header .MainCard ul li a {
-    color: #FF954F;
-    font-size: 35px;
+ul.list-inline li a svg{
+    margin-top: 10px;
 }
-
+ ul.list-inline li a {
+    color: #4d40bd;
+    font-size: 25px;
+    
+}
+ ul.list-inline li {
+width: 50px !important;
+height: 50px !important;
+background-color: white;
+border: 1px solid #4d40bd;
+border-radius: 50%;
+}
 header .MainCard h2 {
     font-size: 15px;
     line-height: 30px;
@@ -103,8 +120,10 @@ header .MainCard h2 {
 
 header .MainCard p {
     font-size: 15px;
-    color: #d1e8ff;
-    line-height: 30px;
+    font-weight:900;
+    color: #4d40bd;
+    -webkit-text-stroke: 1px white;
+       line-height: 30px;
     margin-bottom: 40px;
 }
 
@@ -118,7 +137,7 @@ header .MainCard>a {
 
 section.licence {
     padding: 220px 0 80px;
-    background-color: #f6fbff;
+    background-color: rgb(77, 64, 189, .2);
 }
 
 section.licence .title {
@@ -129,7 +148,7 @@ section.licence .title {
 section.licence .title h2 {
     font-size: 30px;
     line-height: 50px;
-    color: #4fb9ff;
+    color: #4d40bd;
 }
 
 section.licence .title::before {
@@ -137,7 +156,7 @@ section.licence .title::before {
     position: absolute;
     width: 100px;
     height: 2px;
-    background-color: #4fb9ff;
+    background-color: #4d40bd;
     bottom: 0;
     right: 50%;
     transform: translateX(50%);
@@ -163,7 +182,7 @@ section.licence ul.timeline li .time-box h4 {
 
 section.licence ul.timeline li .time-box h4 span {
     color: white;
-    background: #4fb9ff;
+    background: #4d40bd;
     padding: 0 5px;
     margin-left: 25px;
 }
@@ -202,7 +221,7 @@ section.licence ul.timeline::before {
     bottom: 0;
     right: 50%;
     margin-right: -1px;
-    background-color: #4fb9ff;
+    background-color: #4d40bd;
 }
 
 section.licence ul.timeline li {
@@ -212,7 +231,7 @@ section.licence ul.timeline li {
 section.licence ul.timeline li::before {
     width: 10px;
     height: 10px;
-    background-color: #4fb9ff;
+    background-color: #4d40bd;
     border-radius: 50%;
     content: "";
     position: absolute;
@@ -245,14 +264,14 @@ section.licence ul.timeline li:not(:first-of-type) {
 }
 
 section.statistics {
-    background-image: url(../images/bg2.jpg);
+    background-image: url(../images/bg6.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
 section.statistics .overlay {
-    background-color: rgba(255, 149, 79, .7);
+    background-color: #8b40bdb3;
     padding: 150px 0;
 }
 
@@ -277,7 +296,7 @@ section.statistics .overlay .stat .circle {
 section.statistics .overlay .stat .circle span {
     font-size: 24px;
     font-weight: bold;
-    color: #FF954F;
+    color: #8b40bd;
     position: absolute;
     top: 50%;
     right: 50%;
@@ -286,6 +305,7 @@ section.statistics .overlay .stat .circle span {
 
 section.gallery {
     padding: 75px 0 90px;
+    background-color: rgba(78, 65, 190, .2);
 }
 
 section.gallery .title {
@@ -294,7 +314,7 @@ section.gallery .title {
 
 section.gallery .title h2 {
     font-size: 30px;
-    color: #4fb9ff;
+    color: #4d40bd;
     line-height: 50px;
     position: relative;
 }
@@ -322,16 +342,20 @@ section.gallery .work-gallery label {
     border-radius: 2px;
 }
 
+section.gallery .work-gallery img{
+    width: 400px;
+    height: 180px;
+}
 section.gallery .work-gallery label:hover {
-    background-color: #4fb9ff;
+    background-color: #4d40bd;
     color: white;
-    border: 2px solid #4fb9ff;
+    border: 2px solid #4d40bd;
 }
 
 section.gallery .work-gallery input.item-type-1:checked~label.label-type-1, section.gallery .work-gallery input.item-type-2:checked~label.label-type-2, section.gallery .work-gallery input.item-type-3:checked~label.label-type-3,section.gallery .work-gallery input.item-type-all:checked ~ label.label-type-all{
-    background-color: #4fb9ff;
+    background-color: #4d40bd;
     color: white;
-    border: 2px solid #4fb9ff;
+    border: 2px solid #4d40bd;
 }
 section.gallery .work-gallery input.item-type-1:checked~.items .item-type-1, 
 section.gallery .work-gallery input.item-type-2:checked~.items .item-type-2, 
@@ -350,7 +374,7 @@ section.gallery .work-gallery .items .item {
 }
 
 section.contacts {
-    background-image: url(../images/bg3.jpg);
+    background-image: url(../images/bg5.png);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -360,106 +384,9 @@ section.contacts .overlay{
     padding-top: 100px;
 
 }
-section.contacts .overlay .testimonials .title h3{
-    font-size: 30px;
-    color: white;
-    margin-bottom: 27px;
-    line-height: 50px;
-}
-section.contacts .overlay .testimonials .slider{
-    width: 65%;
-    margin: 0 auto 80px;
-    
-}
-section.contacts .overlay .testimonials .slider .carousel{
-    min-height: 250px;
-    color: #b1b1b1;    
-}
-section.contacts .overlay .testimonials .slider .carousel .carousel-item .carousel-caption{
-    background-color: white;
-    width: 100%;
-    padding: 80px 70px 35px;
-    right: 0;
-    left: 0;
-    
-}
-section.contacts .overlay .testimonials .slider .carousel .carousel-item{
-    min-height: 350px;
-    transition: all .5s ease;
 
-}
-section.contacts .overlay .testimonials .slider .carousel .carousel-item .carousel-caption img{
-    position: absolute;
-    top: 0;
-    right: 50%;
-    transform: translate(50%,-50%);
-}
-section.contacts .overlay .testimonials .slider .carousel .carousel-item .carousel-caption h3{
-    font-size:18px ;
-    color: #555555;
-    margin-bottom:15px ;
-}
-section.contacts .overlay .testimonials .slider .carousel .carousel-item .carousel-caption h3 span{
-    font-size: 15px;
-    color: #9c9c9c;
-}
-section.contacts .overlay .testimonials .slider .carousel .carousel-item .carousel-caption p{
-    font-size: 15px;
-    color: #b1b1b1;
-    line-height: 22px;
-    margin-bottom: 25px;
-}
-section.contacts .overlay .testimonials .slider .carousel .carousel-item .carousel-caption ul li a{
-    font-size: 24px;
-    color: #4fb9ff;
-}
-section.contacts .overlay .testimonials .slider .carousel .carousel-item .carousel-caption ul{
-    padding-right: 0;
-    
-}
-section.contacts .overlay .testimonials .slider .carousel .carousel-item .carousel-caption ul li{
-    margin-right: 5px;
-}
-section.contacts .overlay .testimonials .slider .carousel .carousel-indicators li{
-    width: 15px;
-    height: 15px;
-    border: 1px solid #FF954F;
-    background-color: white;
-    margin-right: 8px;
-}
-section.contacts .overlay .testimonials .slider .carousel .carousel-indicators li.active{
-    background-color: #FF954F;
-
-
-}
-section.contacts .overlay .testimonials .slider .carousel .carousel-indicators {
-    padding-right: 0;
-    margin: 0;
-    bottom: 12px;
-   
-}
-section.contacts .overlay .testimonials .slider .carousel .carousel-control-next,
-section.contacts .overlay .testimonials .slider .carousel .carousel-control-next
-{   top: 50%;
-    bottom: auto;
-    width: auto;
-    transform: translate(50%, -50%);
-    z-index: 10;
-
-}
-section.contacts .overlay .testimonials .slider .carousel .carousel-control-next span,
-section.contacts .overlay .testimonials .slider .carousel .carousel-control-prev span{
-    padding: 10px 20px;
-    background-color: #f7863a;
-    border-radius: 50%;
-    color: #ffffff;
-}
-section.contacts .overlay .testimonials .slider .carousel .carousel-control-prev {
-    right: 93%;
-
-}
 section.contacts .overlay .contact-info{
-    background-color: #4fb9ffcc;
+    background-color: #4d40bdcc;
     padding: 50px;
     margin-bottom: 100px;
 }
@@ -492,6 +419,13 @@ section.contacts .overlay .contact-info .form form .form-group input{
     width: 322px;
     height: 50px;
 }
+section.contacts .overlay .contact-info .form form .passwo input.pass{
+    width: 668px;
+    
+}
+section.contacts .overlay .contact-info .form form .passwo:first-child:before{
+    content: "\f084";
+}
 section.contacts .overlay .contact-info .form form .form-group:before{
     font-family: "Font Awesome 5 Free";
             position: absolute;
@@ -499,14 +433,15 @@ section.contacts .overlay .contact-info .form form .form-group:before{
     top: 13px;
     line-height: 25px;
     font-size: 18px;
-    color: #FF954F;
+    color: #8b40bd;
     display: inline-block;
     
 
 }
-section.contacts .overlay .contact-info .form form .inputs .form-group:first-of-type:before {
+section.contacts .overlay .contact-info .form form .inputs .form-group:first-child:before {
     content: "\f007";
 }
+
 section.contacts .overlay .contact-info .form form .inputs .form-group:nth-of-type(2):before {
     content: "\f0e0";
 }
@@ -515,9 +450,9 @@ section.contacts .overlay .contact-info .form form button {
     font-size: 15px;
     color: white;
     line-height: 25px;
-    background-color: #FF954F;
+    background-color: #8b40bd;
     padding: 10px 30px;
-    border: 2px solid #FF954F;
+    border: 2px solid #8b40bd;
     border-radius: 3px;
     margin-right: 15px;
 }
@@ -535,7 +470,7 @@ section.contacts .overlay .contact-info ul.social li{
 }
 
 section.contacts .overlay .contact-info ul.social li a svg {
-    color: #FF954F;
+    color: #8b40bd;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -560,15 +495,12 @@ section.contacts .overlay .copyright p {
     width: 150%;
     position: relative;
     right: -25%;
-    background-color: rgb(19, 19, 19);
+    background-color: #8b40bd;
 }
 @media (max-width: 990px) {
     nav.navbar ul.navbar-nav li a.nav-link {
         padding-right: 0.75rem;
         padding-left: 0.75rem;
-    }
-    section.contacts .overlay .testimonials .slider .carousel .carousel-item {
-        min-height: 390px;
     }
     section.contacts .overlay .contact-info ul.social li a i {
         width: 40px;
@@ -625,4 +557,9 @@ section.contacts .overlay .copyright p {
         text-align: center;
         align-items: center;
 }
+}
+@media(max-width:575px){
+    section.statistics .overlay .stat .circle canvas {
+        width: 100px;
+    }
 }
