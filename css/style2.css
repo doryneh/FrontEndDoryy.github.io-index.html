@@ -5,10 +5,10 @@
 
 body {
     font-family: ar-font;
-    direction: rtl;
+    direction: ltr;
 }
 
-.logo{
+.logo {
     font-family: ar-font;
     color: rgb(211, 211, 211);
     position: relative;
@@ -16,13 +16,15 @@ body {
     margin-right: 100px;
     padding-left: 100px;
 }
-.logo span{
+
+.logo span {
     color: #bd40b0;
     position: absolute;
     direction: ltr;
 }
+
 nav.navbar {
-    background-color:  #4d40bde6;
+    background-color: #4d40bde6;
     border-bottom: 1px solid #4d40bd;
     text-align: right;
 }
@@ -31,24 +33,25 @@ nav.navbar ul.navbar-nav li a.nav-link {
     color: #ffffff;
     font-size: 16px;
     line-height: 60px;
-    padding-right: 1.5rem;
     padding-left: 1.5rem;
+    padding-right: 1.5rem;
     transition: all 0.5s ease;
 }
 
 nav.navbar ul.navbar-nav li a.nav-link:hover, nav.navbar ul.navbar-nav li a.nav-link.active {
     background-color: #ffffff;
     color: #bd40b0;
-  }
+}
 
 nav.navbar.noTransparrent ul.navbar-nav li a.nav-link {
     color: #bd40b0;
 }
 
-nav.navbar.noTransparrent ul.navbar-nav li a.nav-link:hover, nav.navbar.noTransparrent ul.navbar-nav li a.nav-link.active{
+nav.navbar.noTransparrent ul.navbar-nav li a.nav-link:hover, nav.navbar.noTransparrent ul.navbar-nav li a.nav-link.active {
     color: #ffffff;
     background-color: #bd40b0;
 }
+
 nav.navbar.noTransparrent {
     background-color: #ffffff;
     border-bottom: 1px solid #eee;
@@ -61,18 +64,18 @@ nav.navbar.noTransparrent button.navbar-toggler {
 nav.navbar.noTransparrent button.navbar-toggler span {
     color: #8b40bd;
 }
+
 nav button {
-    
-        background-color: #8b40bd !important;
-        color: white;
-        margin-top: 0px !important;
-        margin-right: 80px !important;
-        border-radius: 4px !important;
-        height: 35px;
-        border: 2px solid white !important;
-       
-    }
-    
+    background-color: #8b40bd !important;
+    color: white;
+    margin-top: 0px !important;
+    margin-right: 80px !important;
+    border-radius: 4px !important;
+    height: 35px;
+    border: 2px solid white !important;
+   
+}
+
 
 header {
     background-image: url(../images/bg4.jpg);
@@ -106,29 +109,32 @@ header .MainCard h1 span {
     font-size: 24px;
 }
 
- ul.list-inline {
+ul.list-inline {
     padding: 0;
     margin-bottom: 40px;
 }
 
- ul.list-inline li {
-    margin-right: 15px;
+ul.list-inline li {
+    margin-left: 15px;
 }
-ul.list-inline li a svg{
+
+ul.list-inline li a svg {
     margin-top: 10px;
 }
- ul.list-inline li a {
+
+ul.list-inline li a {
     color: #4d40bd;
     font-size: 25px;
-    
 }
- ul.list-inline li {
-width: 50px !important;
-height: 50px !important;
-background-color: white;
-border: 1px solid #4d40bd;
-border-radius: 50%;
+
+ul.list-inline li {
+    width: 50px !important;
+    height: 50px !important;
+    background-color: white;
+    border: 1px solid #4d40bd;
+    border-radius: 50%;
 }
+
 header .MainCard h2 {
     font-size: 15px;
     line-height: 30px;
@@ -140,8 +146,7 @@ header .MainCard p {
     font-size: 15px;
     color: #ffffff;
     font-weight: bold;
-
-       line-height: 30px;
+    line-height: 30px;
     margin-bottom: 40px;
 }
 
@@ -202,7 +207,8 @@ section.licence ul.timeline li .time-box h4 span {
     color: white;
     background: #4d40bd;
     padding: 0 5px;
-    margin-left: 25px;
+    margin-right: 25px;
+    float: left;
 }
 
 section.licence ul.timeline li .time-box p {
@@ -212,7 +218,7 @@ section.licence ul.timeline li .time-box p {
     color: #5f5f5f;
 }
 
-section.licence ul.timeline li .time-box::after {
+section.licence ul.timeline li:nth-of-type(odd) .time-box::before {
     width: 20px;
     height: 20px;
     background-color: #ffffff;
@@ -220,13 +226,25 @@ section.licence ul.timeline li .time-box::after {
     position: absolute;
     top: 5%;
     left: -10px;
-    border-left: 2px solid #f4f3f3;
+    border-right: 2px solid #f4f3f3;
+    border-bottom: 2px solid #f4f3f3;
+    transform: rotate(45deg);
+}
+section.licence ul.timeline li .one::after {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    content: "";
+    position: absolute;
+    top: 5%;
+    right: -10px;
+    border-right: 2px solid #f4f3f3;
     border-bottom: 2px solid #f4f3f3;
     transform: rotate(45deg);
 }
 
 section.licence ul.timeline {
-    padding-right: 0;
+    padding-left: 0;
     padding-top: 45px;
     position: relative;
 }
@@ -238,7 +256,7 @@ section.licence ul.timeline::before {
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 50%;
+    left: 50%;
     margin-right: -1px;
     background-color: #4d40bd;
 }
@@ -255,12 +273,12 @@ section.licence ul.timeline li::before {
     content: "";
     position: absolute;
     top: 9%;
-    right: 50%;
-    margin-right: -5px;
+    left: 50%;
+    margin-left: -5px;
 }
 
-section.licence ul.timeline li:nth-of-type(even) {
-    direction: ltr;
+section.licence ul.timeline li:nth-of-type(odd) {
+    direction: rtl;
     text-align: left;
 }
 
@@ -271,11 +289,11 @@ section.licence ul.timeline li:nth-of-type(even) .time-box h4 span {
 }
 
 section.licence ul.timeline li:nth-of-type(even) .time-box::after {
-    left: auto;
+    right: auto;
     right: -10px;
     border: 0;
     border-top: 2px solid #f4f3f3;
-    border-right: 2px solid #f4f3f3;
+    border-left: 2px solid #f4f3f3;
 }
 
 section.licence ul.timeline li:not(:first-of-type) {
@@ -336,13 +354,12 @@ section.gallery .title h2 {
     color: #4d40bd;
     line-height: 50px;
     position: relative;
-    
 }
 
 section.gallery .title h2 svg {
     display: block;
     position: absolute;
-    right: 48.5%;
+    left: 48.5%;
     top: -25px;
 }
 
@@ -362,33 +379,33 @@ section.gallery .work-gallery label {
     border-radius: 2px;
 }
 
-section.gallery .work-gallery img{
+section.gallery .work-gallery img {
     width: 400px;
     height: 180px;
 }
+
 section.gallery .work-gallery label:hover {
     background-color: #4d40bd;
     color: white;
     border: 2px solid #4d40bd;
 }
 
-section.gallery .work-gallery input.item-type-1:checked~label.label-type-1, section.gallery .work-gallery input.item-type-2:checked~label.label-type-2, section.gallery .work-gallery input.item-type-3:checked~label.label-type-3,section.gallery .work-gallery input.item-type-all:checked ~ label.label-type-all{
+section.gallery .work-gallery input.item-type-1:checked~label.label-type-1, section.gallery .work-gallery input.item-type-2:checked~label.label-type-2, section.gallery .work-gallery input.item-type-3:checked~label.label-type-3, section.gallery .work-gallery input.item-type-all:checked~label.label-type-all {
     background-color: #4d40bd;
     color: white;
     border: 2px solid #4d40bd;
 }
-section.gallery .work-gallery input.item-type-1:checked~.items .item-type-1, 
-section.gallery .work-gallery input.item-type-2:checked~.items .item-type-2, 
-section.gallery .work-gallery input.item-type-3:checked~.items .item-type-3 {
+
+section.gallery .work-gallery input.item-type-1:checked~.items .item-type-1, section.gallery .work-gallery input.item-type-2:checked~.items .item-type-2, section.gallery .work-gallery input.item-type-3:checked~.items .item-type-3 {
     transform: scale(1.08);
     opacity: 1;
 }
-section.gallery .work-gallery input.item-type-1:checked~.items .item:not(.item-type-1), 
-section.gallery .work-gallery input.item-type-2:checked~.items>.item:not(.item-type-2), 
-section.gallery .work-gallery input.item-type-3:checked~.items>.item:not(.item-type-3) {
+
+section.gallery .work-gallery input.item-type-1:checked~.items .item:not(.item-type-1), section.gallery .work-gallery input.item-type-2:checked~.items>.item:not(.item-type-2), section.gallery .work-gallery input.item-type-3:checked~.items>.item:not(.item-type-3) {
     transform: scale(0.8);
     opacity: 0.5;
 }
+
 section.gallery .work-gallery .items .item {
     transition: all 0.6s ease;
 }
@@ -399,59 +416,62 @@ section.contacts {
     background-size: cover;
     background-attachment: fixed;
 }
-section.contacts .overlay{
-    background-color: rgba(0,0,0,0.6);
-    padding-top: 100px;
 
+section.contacts .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 100px;
 }
 
-section.contacts .overlay .contact-info{
+section.contacts .overlay .contact-info {
     background-color: #4d40bdcc;
     padding: 50px;
     margin-bottom: 100px;
 }
-section.contacts .overlay .contact-info .title h3{
+
+section.contacts .overlay .contact-info .title h3 {
     font-size: 30px;
     color: white;
     margin-bottom: 35px;
     line-height: 50px;
 }
-section.contacts .overlay .contact-info  .form form .form-group input,
-section.contacts .overlay .contact-info  .form form .form-group textarea
-    {
-    color:#c2c2c2 ;
-    border:2px solid #f1f1f1 ;
+
+section.contacts .overlay .contact-info .form form .form-group input, section.contacts .overlay .contact-info .form form .form-group textarea {
+    color: #c2c2c2;
+    border: 2px solid #f1f1f1;
     border-radius: 3px;
     font-family: ar-font;
     font-size: 18px;
     line-height: 35px;
-    padding-right: 45px;
+    padding-left: 45px;
     margin-bottom: 30px;
 }
-section.contacts .overlay .contact-info  .form form .form-group textarea{
+
+section.contacts .overlay .contact-info .form form .form-group textarea {
     min-height: 220px;
     max-height: 220px;
 }
+
 section.contacts .overlay .contact-info .form form .form-group {
     position: relative;
 }
-section.contacts .overlay .contact-info .form form .form-group input{
+
+section.contacts .overlay .contact-info .form form .form-group input {
     width: 322px;
     height: 50px;
+
 }
 
-section.contacts .overlay .contact-info .form form .form-group:before{
+section.contacts .overlay .contact-info .form form .form-group:before {
     font-family: "Font Awesome 5 Free";
-            position: absolute;
-    right: 30px;
+    position: absolute;
+    left: 30px;
     top: 13px;
     line-height: 25px;
     font-size: 18px;
     color: #8b40bd;
     display: inline-block;
-    
-
 }
+
 section.contacts .overlay .contact-info .form form .inputs .form-group:first-child:before {
     content: "\f007";
 }
@@ -459,6 +479,7 @@ section.contacts .overlay .contact-info .form form .inputs .form-group:first-chi
 section.contacts .overlay .contact-info .form form .inputs .form-group:nth-of-type(2):before {
     content: "\f0e0";
 }
+
 section.contacts .overlay .contact-info .form form button {
     font-family: ar-font;
     font-size: 15px;
@@ -468,19 +489,22 @@ section.contacts .overlay .contact-info .form form button {
     padding: 10px 30px;
     border: 2px solid #8b40bd;
     border-radius: 3px;
-    margin-right: 15px;
+    margin-left: 15px;
 }
-section.contacts .overlay .contact-info ul.contact-us li{
-    font-family:"Open Sans" ;
+
+section.contacts .overlay .contact-info ul.contact-us li {
+    font-family: "Open Sans";
     font-size: 16px;
     line-height: 30px;
     color: white;
 }
-section.contacts .overlay .contact-info ul{
+
+section.contacts .overlay .contact-info ul {
     padding: 0;
 }
-section.contacts .overlay .contact-info ul.social li{
-    margin-right: 9px ;
+
+section.contacts .overlay .contact-info ul.social li {
+    margin-left: 9px;
 }
 
 section.contacts .overlay .contact-info ul.social li a svg {
@@ -493,13 +517,16 @@ section.contacts .overlay .contact-info ul.social li a svg {
     margin-top: 50px;
     transition: all 0.3s ease;
 }
+
 section.contacts form .error {
     color: red;
     margin-bottom: 20px;
 }
+
 section.contacts .overlay .contact-info ul.social li a i:hover {
     background-color: white;
 }
+
 section.contacts .overlay .copyright p {
     font-size: 18px;
     color: #ececec;
@@ -508,9 +535,10 @@ section.contacts .overlay .copyright p {
     padding: 0;
     width: 150%;
     position: relative;
-    right: -25%;
+    left: -25%;
     background-color: #8b40bd;
 }
+
 @media (max-width: 990px) {
     nav.navbar ul.navbar-nav li a.nav-link {
         padding-right: 0.75rem;
@@ -537,7 +565,7 @@ section.contacts .overlay .copyright p {
     }
     nav.navbar button.navbar-toggler {
         position: absolute;
-        left: 0;
+        right: 0;
         top: 0;
         margin: 0;
     }
@@ -550,7 +578,7 @@ section.contacts .overlay .copyright p {
         margin: 0;
     }
     nav.navbar ul {
-        padding-right: 0;
+        padding-left: 0;
     }
     section.licence ul.timeline li .time-box {
         max-width: 100%;
@@ -570,53 +598,67 @@ section.contacts .overlay .copyright p {
         flex-direction: column;
         text-align: center;
         align-items: center;
+    }
 }
-}
-@media(max-width:575px){
-   header{
-       background-size:cover;
-       background-origin: center center;
-   }
-    .logo{
+
+@media(max-width:575px) {
+    header {
+        background-size: cover;
+        background-origin: center center;
+    }
+    .logo {
         font: 50px;
         position: absolute;
-        left: 230px;
-        padding-right: 50px;
-   }
-   section.gallery .work-gallery img{
-    width: 200px;
-    height: 90px;
-    display: inline-block;
-}
-section.gallery .work-gallery label {
-    width: 70px;
-    font-size: 15px;
-    text-align: center;
-    padding-right: 15px;
-}
-section.contacts .overlay .contact-info ul {
-   
-    text-align: center;
-}
-section.contacts .overlay .contact-info .form form button {
-    width: 95%;
-    margin-bottom: 20px;
-}
-section.contacts .overlay .contact-info .form form .form-group input{
-    width: 350px;
-    height: 50px;
-    padding-left: 0;
-}
-.image,.percent{
-    width: 50%;
-}
-section.licence .title::before {
-    left: 10%;
+        right: 300px;
+        padding-left: 50px;
+      
+    }
+ 
+    section.gallery .work-gallery img {
+        width: 200px;
+        height: 90px;
+        display: inline-block;
+    }
+    section.gallery .work-gallery label {
+        width: 95px;
+        font-size: 15px;
+        text-align: center;
+        padding-left: 25px;
+    }
+    section.gallery .work-gallery label.small{
+        font-size: 14px;
+        padding-left: 4px;
+    }
+    section.contacts .overlay .contact-info ul {
+        text-align: center;
+    }
+    section.contacts .overlay .contact-info .form form button {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    section.contacts .overlay .contact-info .form form .form-group input {
+        width: 350px;
+        height: 50px;
+        padding-left: 50px;
+    }
+    .image, .percent {
+        width: 50%;
+    }
+    header .MainCard h1 span {
+        display: block;
+    }
+    section.licence .title::before {
+        left: 10%;
+    }
+    
+section.licence ul.timeline li .time-box::after,
+section.licence ul.timeline li .time-box::before{
+display: none;
 }
 nav .drop{
     position: absolute;
     width: 300px;height: 200px;
     top: 20px;
-    right: 300px;
+    left: 250px;
 }
 }

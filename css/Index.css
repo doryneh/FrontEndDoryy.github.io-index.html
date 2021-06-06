@@ -46,7 +46,9 @@ h1.eng {
 
 }
 
-
+button:hover{
+    background-color: #bd40b0;
+}
 h1.arab {
     font-size: 40px;
     direction: rtl;
@@ -97,5 +99,20 @@ a:hover {
     h1.eng, h1.arab {
         font-size: 30px;
         padding: 50px;
+        padding-top: 100px;
+    }
+    .logo{
+        width: 350px;
+      position: absolute;
+      left: -20px;
+      margin-bottom: 50px;
+    }
+    .white{
+        left: 25%;
+        width: 50%;
+    }
+    .arabic,.english{
+        width: 150px;
+        margin-left: 50px;
     }
 }
