@@ -97,15 +97,20 @@ a:hover {
 
 @media(max-width:575px) {
     h1.eng, h1.arab {
-        font-size: 30px;
+        font-size: 20px;
         padding: 50px;
         padding-top: 100px;
+        margin-top: 30px;
     }
     .logo{
         width: 350px;
       position: absolute;
-      left: -20px;
+      left: 15px;
+      top: 20px;
       margin-bottom: 50px;
+    }
+    h1.Name{
+        font-size: 40px;
     }
     .white{
         left: 25%;
@@ -113,6 +118,6 @@ a:hover {
     }
     .arabic,.english{
         width: 150px;
-        margin-left: 50px;
+        margin-left: 40px;
     }
 }
