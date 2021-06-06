@@ -66,7 +66,7 @@ nav button {
         background-color: #8b40bd !important;
         color: white;
         margin-top: 0px !important;
-        margin-right: 80px !important;
+        margin-left: 80px !important;
         border-radius: 4px !important;
         height: 35px;
         border: 2px solid white !important;
@@ -580,7 +580,7 @@ section.contacts .overlay .copyright p {
     .logo{
         font: 50px;
         position: absolute;
-        left: 230px;
+        left: 190px;
         padding-right: 50px;
    }
    section.gallery .work-gallery img{
@@ -603,8 +603,7 @@ section.contacts .overlay .contact-info .form form button {
     margin-bottom: 20px;
 }
 section.contacts .overlay .contact-info .form form .form-group input{
-    width: 350px;
-    height: 50px;
+
     padding-left: 0;
 }
 .image,.percent{
@@ -617,6 +616,6 @@ nav .drop{
     position: absolute;
     width: 300px;height: 200px;
     top: 20px;
-    right: 300px;
+    right: 340px;
 }
 }
