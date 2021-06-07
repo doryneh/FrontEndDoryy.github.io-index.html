@@ -103,7 +103,8 @@ a:hover {
         margin-top: 30px;
     }
     .logo{
-        width: 350px;
+        width: 400px;
+        height: 100px;
       position: absolute;
       left:0;
       top: 20px;
@@ -118,6 +119,6 @@ a:hover {
     }
     .arabic,.english{
         width: 150px;
-        margin-left: 10px;
+        margin-left: 29px;
     }
 }
