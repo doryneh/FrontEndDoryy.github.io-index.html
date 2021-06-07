@@ -580,7 +580,7 @@ section.contacts .overlay .copyright p {
     .logo{
         font: 50px;
         position: absolute;
-        left: 190px;
+        left: 140px;
         padding-right: 50px;
    }
    section.gallery .work-gallery img{
@@ -616,6 +616,16 @@ nav .drop{
     position: absolute;
     width: 300px;height: 200px;
     top: 20px;
-    right: 340px;
+    right: 260px;
+}
+section.contacts .overlay .contact-info ul.social li {
+    margin-left: 5px;
+}
+
+section.contacts .overlay .contact-info ul.social li a svg {
+    
+    width: 40px;
+    height: 40px;
+    
 }
 }

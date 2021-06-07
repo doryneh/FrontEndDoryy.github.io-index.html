@@ -73,9 +73,7 @@ nav button {
     border-radius: 4px !important;
     height: 35px;
     border: 2px solid white !important;
-   
 }
-
 
 header {
     background-image: url(../images/bg4.jpg);
@@ -230,6 +228,7 @@ section.licence ul.timeline li:nth-of-type(odd) .time-box::before {
     border-bottom: 2px solid #f4f3f3;
     transform: rotate(45deg);
 }
+
 section.licence ul.timeline li .one::after {
     width: 20px;
     height: 20px;
@@ -458,7 +457,6 @@ section.contacts .overlay .contact-info .form form .form-group {
 section.contacts .overlay .contact-info .form form .form-group input {
     width: 322px;
     height: 50px;
-
 }
 
 section.contacts .overlay .contact-info .form form .form-group:before {
@@ -606,14 +604,11 @@ section.contacts .overlay .copyright p {
         background-size: cover;
         background-origin: center center;
     }
-   
     .logo {
         font: 50px;
         position: absolute;
-        right: 240px;
-      
+        right: 220px;
     }
- 
     section.gallery .work-gallery img {
         width: 200px;
         height: 90px;
@@ -625,7 +620,7 @@ section.contacts .overlay .copyright p {
         text-align: center;
         padding-left: 25px;
     }
-    section.gallery .work-gallery label.small{
+    section.gallery .work-gallery label.small {
         font-size: 14px;
         padding-left: 4px;
     }
@@ -637,7 +632,6 @@ section.contacts .overlay .copyright p {
         margin-bottom: 20px;
     }
     section.contacts .overlay .contact-info .form form .form-group input {
-     
         padding-left: 50px;
     }
     .image, .percent {
@@ -649,15 +643,24 @@ section.contacts .overlay .copyright p {
     section.licence .title::before {
         left: 10%;
     }
+    section.licence ul.timeline li .time-box::after, section.licence ul.timeline li .time-box::before {
+        display: none;
+    }
+    nav .drop {
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        top: 20px;
+        left: 170px;
+    }
+    section.contacts .overlay .contact-info ul.social li {
+        margin-left: 5px;
+    }
     
-section.licence ul.timeline li .time-box::after,
-section.licence ul.timeline li .time-box::before{
-display: none;
-}
-nav .drop{
-    position: absolute;
-    width: 300px;height: 200px;
-    top: 20px;
-    left: 200px;
-}
+    section.contacts .overlay .contact-info ul.social li a svg {
+        
+        width: 40px;
+        height: 40px;
+        
+    }
 }
