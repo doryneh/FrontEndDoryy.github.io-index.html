@@ -105,19 +105,19 @@ a:hover {
     .logo{
         width: 350px;
       position: absolute;
-      left: 15px;
+      left:0;
       top: 20px;
       margin-bottom: 50px;
     }
     h1.Name{
-        font-size: 40px;
+        font-size: 35px;
     }
     .white{
-        left: 25%;
+        left: 28%;
         width: 50%;
     }
     .arabic,.english{
         width: 150px;
-        margin-left: 30px;
+        margin-left: 10px;
     }
 }

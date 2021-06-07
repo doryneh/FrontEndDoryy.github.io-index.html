@@ -654,7 +654,7 @@ section.contacts .overlay .copyright p {
         left: 170px;
     }
     section.contacts .overlay .contact-info ul.social li {
-        margin-left: 5px;
+        margin-right: 5px;
     }
     
     section.contacts .overlay .contact-info ul.social li a svg {
