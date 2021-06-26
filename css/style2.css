@@ -8,21 +8,11 @@ body {
     direction: ltr;
 }
 
-.logo {
-    font-family: ar-font;
-    color: rgb(211, 211, 211);
-    position: relative;
-    direction: ltr;
-    margin-right: 100px;
-    padding-left: 100px;
-}
-
-.logo span {
-    color: #bd40b0;
-    position: absolute;
-    direction: ltr;
-}
-
+.logo img{
+    width: 150px !important;
+    margin-right: 50px ;
+    margin-left: 50px;
+    }
 nav.navbar {
     background-color: #4d40bde6;
     border-bottom: 1px solid #4d40bd;

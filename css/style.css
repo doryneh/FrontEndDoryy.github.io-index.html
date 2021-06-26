@@ -8,19 +8,12 @@ body {
     direction: rtl;
 }
 
-.logo{
-    font-family: ar-font;
-    color: rgb(211, 211, 211);
-    position: relative;
-    direction: ltr;
-    margin-right: 100px;
-    padding-left: 100px;
+.logo img{
+width: 150px !important;
+margin-right: 50px ;
+margin-left: 50px;
 }
-.logo span{
-    color: #bd40b0;
-    position: absolute;
-    direction: ltr;
-}
+
 nav.navbar {
     background-color:  #4d40bde6;
     border-bottom: 1px solid #4d40bd;
@@ -580,7 +573,7 @@ section.contacts .overlay .copyright p {
     .logo{
         font: 50px;
         position: absolute;
-        left: 140px;
+        left: 220px;
         padding-right: 50px;
    }
    section.gallery .work-gallery img{
