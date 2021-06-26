@@ -84,6 +84,8 @@ header .MainCard {
 header .MainCard img {
     border: 5px solid #4d40bd;
     margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
 }
 
 header .MainCard h1 {
