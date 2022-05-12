@@ -714,11 +714,14 @@ section.contacts .copyright p {
         background-image: url(../images/bg10Rotated.jpg);
         background-size: unset;
         background-position: center center;
+        background-repeat: no-repeat;
 
     }
 
     section.gallery .work-gallery input.item-type-1:checked~.items .item-type-1, section.gallery .work-gallery input.item-type-2:checked~.items .item-type-2, section.gallery .work-gallery input.item-type-3:checked~.items .item-type-3 {
+       
         transform: unset;
+   
     }
 
     .list-inline-item:not(:last-child) {
