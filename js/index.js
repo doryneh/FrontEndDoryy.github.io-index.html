@@ -9,7 +9,7 @@ $(window).scroll(function () {
         $('.circle')
           .circleProgress({
             startAngle: -Math.PI / 2,
-            fill: '#bd40b0'
+            fill: '#2A2A2A'
           })
           .on('circle-animation-progress', function (event, progress, stepValue) {
             $(this)
@@ -26,3 +26,7 @@ $(document).ready(function(){
       $(this).addClass("active");
   });
 });
+
+
+
+
