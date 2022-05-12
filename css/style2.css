@@ -614,7 +614,7 @@ section.contacts .copyright p {
 @media(max-width:575px) {
     header {
         background-image: url(../images/bg9Rotated.jpg);
-        background-size: auto;
+        background-size: unset;
         background-position: center center;
     }
 
@@ -703,7 +703,7 @@ section.contacts .copyright p {
 
     section.statistics {
         background-image: url(../images/bg6Rotated.jpg);
-        background-size:auto;
+        background-size:contain;
         background-repeat: no-repeat;
         background-position: center center;
 
@@ -711,7 +711,7 @@ section.contacts .copyright p {
 
     section.contacts {
         background-image: url(../images/bg10Rotated.jpg);
-        background-size: auto;
+        background-size: unset;
         background-position: center center;
 
     }
