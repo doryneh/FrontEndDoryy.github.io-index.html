@@ -615,7 +615,7 @@ section.contacts .copyright p {
     header {
         background-image: url(../images/bg9Rotated.jpg);
         background-size: auto;
-        background-origin: center center;
+        background-position: center center;
     }
 
     .logo {
@@ -705,12 +705,15 @@ section.contacts .copyright p {
         background-image: url(../images/bg6Rotated.jpg);
         background-size:auto;
         background-repeat: no-repeat;
+        background-position: center center;
 
     }
 
     section.contacts {
         background-image: url(../images/bg10Rotated.jpg);
         background-size: auto;
+        background-position: center center;
+
     }
 
     section.gallery .work-gallery input.item-type-1:checked~.items .item-type-1, section.gallery .work-gallery input.item-type-2:checked~.items .item-type-2, section.gallery .work-gallery input.item-type-3:checked~.items .item-type-3 {
