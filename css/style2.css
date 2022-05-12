@@ -615,6 +615,7 @@ section.contacts .copyright p {
     header {
         background-image: url(../images/bg9Rotated.jpg);
         background-size: unset;
+        background-repeat: no-repeat;
         background-position: center center;
     }
 
@@ -703,7 +704,7 @@ section.contacts .copyright p {
 
     section.statistics {
         background-image: url(../images/bg6Rotated.jpg);
-        background-size:contain;
+        background-size:unset;
         background-repeat: no-repeat;
         background-position: center center;
 
@@ -723,4 +724,9 @@ section.contacts .copyright p {
     .list-inline-item:not(:last-child) {
         margin-right: 0rem;
     }
+    section.statistics .overlay {
+        background-color: #10B1A1b3;
+        padding: 50px 0;
+    }
+    
 }
