@@ -428,6 +428,7 @@ section.contacts .overlay {
 section.contacts .overlay .contact-info {
     background-color: #2A2A2Acc;
     padding: 50px;
+    margin-bottom:50px;
 }
 
 section.contacts .overlay .contact-info .title h3 {
@@ -694,9 +695,7 @@ section.contacts .copyright p {
 
     }
 
-    section.contacts .overlay .contact-info {
-        margin-bottom: 0px;
-    }
+  
 
     .dropdown-menu {
         right: 0;
