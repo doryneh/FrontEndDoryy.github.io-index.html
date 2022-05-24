@@ -695,7 +695,9 @@ section.contacts .copyright p {
 
     }
 
-  
+    section.contacts .overlay .contact-info {
+        margin-bottom: 50px;
+    }
 
     .dropdown-menu {
         right: 0;

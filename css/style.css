@@ -716,4 +716,7 @@ section.contacts .copyright p {
     section.gallery .work-gallery input.item-type-1:checked~.items .item-type-1, section.gallery .work-gallery input.item-type-2:checked~.items .item-type-2, section.gallery .work-gallery input.item-type-3:checked~.items .item-type-3{
         transform: unset;
     }
+    section.contacts .overlay .contact-info {
+        margin-bottom: 50px;
+    }
 }
