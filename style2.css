@@ -1,0 +1,775 @@
+@font-face {
+    font-family: ar-font;
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+
+body {
+    font-family: ar-font;
+    direction: ltr;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 50px;
+}
+
+.logobg {
+    background-color: white;
+    width: 100px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav.navbar {
+    background-color: #2A2A2Ae6;
+    border-bottom: 1px solid #2A2A2A;
+    text-align: left;
+}
+
+nav.navbar ul.navbar-nav li a.nav-link {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 60px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    transition: all 0.5s ease;
+}
+
+nav.navbar ul.navbar-nav li a.nav-link:hover, nav.navbar ul.navbar-nav li a.nav-link.active {
+    color: white;
+    font-weight: bolder;
+    border-bottom: 3px solid white;
+}
+
+nav.navbar.noTransparrent ul.navbar-nav li a.nav-link {
+    color: #10B1A1;
+}
+
+nav.navbar.noTransparrent ul.navbar-nav li a.nav-link:hover, nav.navbar.noTransparrent ul.navbar-nav li a.nav-link.active {
+    color: #10B1A1;
+    font-weight: bolder;
+    border-bottom: 3px solid #10B1A1;
+}
+
+nav.navbar.noTransparrent {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+nav.navbar.noTransparrent button.navbar-toggler {
+    margin: 30px auto;
+}
+
+nav.navbar.noTransparrent button.navbar-toggler span {
+    color: #10B1A1;
+}
+
+nav button {
+
+    background-color: #10B1A1 !important;
+    color: white;
+    margin-top: 0px;
+    margin-right: 80px;
+    border-radius: 4px;
+    height: 35px;
+    border: 2px solid white !important;
+
+}
+
+.dropdown-menu {
+    right: 50%;
+}
+
+header {
+    background-image: url(../images/bg9.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+header .MainCard {
+    background-color: #10B1A1cc;
+    color: white;
+    transform: translateY(20%);
+    padding: 3% 10%;
+}
+
+header .MainCard img {
+    border: 5px solid #2A2A2A;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+header .MainCard h1 {
+    font-size: 36px;
+    color: #f9f9f9;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+header .MainCard h1 span {
+    font-size: 24px;
+}
+
+ul.list-inline {
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+ul.list-inline li {
+    margin-left: 15px;
+}
+
+ul.list-inline li a svg {
+    margin-top: 10px;
+}
+
+ul.list-inline li a {
+    color: #2A2A2A;
+    font-size: 25px;
+
+}
+
+ul.list-inline li {
+    width: 50px !important;
+    height: 50px !important;
+    background-color: white;
+    border: 1px solid #2A2A2A;
+    border-radius: 50%;
+}
+
+header .MainCard h2 {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+header .MainCard p {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+header .MainCard>a {
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 32px;
+    color: white;
+    text-decoration: none;
+}
+
+section.licence {
+    padding: 220px 0 80px;
+    background-color: rgb(77, 64, 189, .2);
+}
+
+section.licence .title {
+    padding-bottom: 43px;
+    position: relative;
+}
+
+section.licence .title h2 {
+    font-size: 30px;
+    line-height: 50px;
+    color: #2A2A2A;
+}
+
+section.licence .title::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-color: #2A2A2A;
+    bottom: 0;
+    right: 35%;
+    transform: translateX(-50%);
+}
+
+section.licence .title h2 svg {
+    display: block;
+}
+
+section.licence ul.timeline li .time-box {
+    background-color: white;
+    border: 2px solid #f4f3f3;
+    padding: 20px 25px;
+    max-width: 48%;
+    position: relative;
+}
+
+section.licence ul.timeline li .time-box h4 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+}
+
+section.licence ul.timeline li .time-box h4 span {
+    color: white;
+    background: #2A2A2A;
+    padding: 0 5px;
+    margin-right: 25px;
+}
+
+section.licence ul.timeline li .time-box p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 30px;
+    color: #5f5f5f;
+}
+
+section.licence ul.timeline li .time-box::after {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    content: "";
+    position: absolute;
+    top: 5%;
+    right: -10px;
+    border-right: 2px solid #f4f3f3;
+    border-bottom: 2px solid #f4f3f3;
+    transform: rotate(-45deg);
+}
+
+section.licence ul.timeline {
+    padding-left: 0;
+    padding-top: 45px;
+    position: relative;
+}
+
+section.licence ul.timeline::before {
+    content: "";
+    width: 2px;
+    height: 75%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+    background-color: #2A2A2A;
+}
+
+section.licence ul.timeline li {
+    position: relative;
+}
+
+section.licence ul.timeline li::before {
+    width: 10px;
+    height: 10px;
+    background-color: #2A2A2A;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    margin-left: -5px;
+}
+
+section.licence ul.timeline li:nth-of-type(even) {
+    direction: rtl;
+    text-align: right;
+}
+
+section.licence ul.timeline li:nth-of-type(even) .time-box h4 span {
+    margin-right: 0;
+    margin-left: 25px;
+    float: right;
+}
+
+section.licence ul.timeline li:nth-of-type(even) .time-box::after {
+    right: auto;
+    left: -10px;
+    border: 0;
+    border-top: 2px solid #f4f3f3;
+    border-left: 2px solid #f4f3f3;
+}
+
+section.licence ul.timeline li:not(:first-of-type) {
+    margin-top: -40px;
+}
+
+section.statistics {
+    background-image: url(../images/bg6.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section.statistics .overlay {
+    background-color: #10B1A1b3;
+    padding: 150px 0;
+}
+
+section.statistics .overlay .stat p {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Open Sans';
+    color: white;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+section.statistics .overlay .stat .circle canvas {
+    background-color: #eef6ff;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+section.statistics .overlay .stat .circle {
+    position: relative;
+}
+
+section.statistics .overlay .stat .circle span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #10B1A1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.gallery {
+    padding: 75px 0 90px;
+    background-color: rgba(78, 65, 190, .2);
+}
+
+section.gallery .title {
+    margin-bottom: 35px;
+}
+
+section.gallery .title h2 {
+    font-size: 30px;
+    color: #2A2A2A;
+    line-height: 50px;
+    position: relative;
+
+}
+
+section.gallery .title h2 svg {
+    display: block;
+    position: absolute;
+    left: 48.5%;
+    top: -25px;
+}
+
+section.gallery .work-gallery input {
+    display: none;
+}
+
+section.gallery .work-gallery label {
+    font-size: 18px;
+    line-height: 35px;
+    color: #8f9999;
+    cursor: pointer;
+    margin: 0 7px 40px;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    border: 2px solid #e4eeee;
+    border-radius: 2px;
+}
+
+section.gallery .work-gallery img {
+    width: 400px;
+    height: 180px;
+}
+
+section.gallery .work-gallery label:hover {
+    background-color: #2A2A2A;
+    color: white;
+    border: 2px solid #2A2A2A;
+}
+
+section.gallery .work-gallery input.item-type-1:checked~label.label-type-1, section.gallery .work-gallery input.item-type-2:checked~label.label-type-2, section.gallery .work-gallery input.item-type-3:checked~label.label-type-3, section.gallery .work-gallery input.item-type-all:checked~label.label-type-all {
+    background-color: #2A2A2A;
+    color: white;
+    border: 2px solid #2A2A2A;
+}
+
+section.gallery .work-gallery input.item-type-1:checked~.items .item-type-1,
+section.gallery .work-gallery input.item-type-2:checked~.items .item-type-2,
+section.gallery .work-gallery input.item-type-3:checked~.items .item-type-3 {
+    transform: scale(1.08);
+    opacity: 1;
+}
+
+section.gallery .work-gallery input.item-type-1:checked~.items .item:not(.item-type-1),
+section.gallery .work-gallery input.item-type-2:checked~.items>.item:not(.item-type-2),
+section.gallery .work-gallery input.item-type-3:checked~.items>.item:not(.item-type-3) {
+    transform: scale(0.8);
+    opacity: 0.5;
+}
+
+section.gallery .work-gallery .items .item {
+    transition: all 0.6s ease;
+}
+
+section.contacts {
+    background-image: url(../images/bg10.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.contacts .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 100px;
+
+}
+
+section.contacts .overlay .contact-info {
+    background-color: #2A2A2Acc;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+section.contacts .overlay .contact-info .title h3 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 35px;
+    line-height: 50px;
+}
+
+section.contacts .overlay .contact-info .form form .form-group input,
+section.contacts .overlay .contact-info .form form .form-group textarea {
+    color: #c2c2c2;
+    border: 2px solid #f1f1f1;
+    border-radius: 3px;
+    font-family: ar-font;
+    font-size: 18px;
+    line-height: 35px;
+    padding-left: 45px;
+    margin-bottom: 30px;
+}
+
+section.contacts .overlay .contact-info .form form .form-group textarea {
+    min-height: 220px;
+    max-height: 220px;
+}
+
+section.contacts .overlay .contact-info .form form .form-group {
+    position: relative;
+}
+
+
+
+section.contacts .overlay .contact-info .form form .form-group:before {
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    left: 30px;
+    top: 13px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #10B1A1;
+    display: inline-block;
+
+
+}
+
+section.contacts .overlay .contact-info .form form .inputs .form-group:first-child:before {
+    content: "\f007";
+}
+
+section.contacts .overlay .contact-info .form form .inputs .form-group:nth-of-type(2):before {
+    content: "\f0e0";
+}
+
+section.contacts .overlay .contact-info .form form button {
+    font-family: ar-font;
+    font-size: 15px;
+    color: white;
+    line-height: 25px;
+    background-color: #10B1A1;
+    padding: 10px 30px;
+    border: 2px solid #10B1A1;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+
+section.contacts .overlay .contact-info ul.contact-us li {
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+}
+
+section.contacts .overlay .contact-info ul {
+    padding: 0;
+}
+
+section.contacts .overlay .contact-info ul.social li {
+    margin-left: 9px;
+}
+
+section.contacts .overlay .contact-info ul.social li a svg {
+    color: #10B1A1;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 50px;
+    transition: all 0.3s ease;
+}
+
+section.contacts form .error {
+    color: red;
+    margin-bottom: 20px;
+}
+
+section.contacts .overlay .contact-info ul.social li a i:hover {
+    background-color: white;
+}
+
+section.contacts .copyright p {
+    font-size: 18px;
+    color: #ececec;
+    line-height: 77px;
+    margin: 0px;
+    padding: 0;
+    background-color: #10B1A1;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 990px) {
+    nav.navbar ul.navbar-nav li a.nav-link {
+        font-size: 12px;
+    }
+
+    ul.list-inline li {
+        margin-left: 0px;
+    }
+
+    section.licence .title::before {
+        right: unset;
+    }
+}
+
+
+@media (max-width: 990px) {
+    nav.navbar ul.navbar-nav li a.nav-link {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+    ul.list-inline li {
+        margin-left: 10px;
+        margin-bottom: 20px;
+
+    }
+    section.contacts .overlay .contact-info ul.social li a i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    section.contacts .overlay .contact-info .form form .form-group input, section.contacts .overlay .contact-info .form form .form-group textarea {
+        font-size: 14px;
+    }
+
+    section.licence .title::before {
+        right: unset;
+    }
+}
+
+@media (min-width: 576px) {
+    .container-sm, .container {
+        max-width: unset;
+    }
+    section.gallery .work-gallery input.item-type-1:checked~.items .item-type-1, section.gallery .work-gallery input.item-type-2:checked~.items .item-type-2, section.gallery .work-gallery input.item-type-3:checked~.items .item-type-3 {
+
+        transform: unset;
+
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    nav.navbar {
+        min-height: 80px;
+    }
+   ul.list-inline li {
+        margin-left: 10px;
+    }
+    nav.navbar .container {
+        width: 100%;
+        position: relative;
+        min-height: 40px;
+    }
+
+    nav.navbar button.navbar-toggler {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 0;
+    }
+
+    nav.navbar button.navbar-toggler span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav.navbar.noTransparrent button.navbar-toggler {
+        margin: 0;
+    }
+
+    nav.navbar ul {
+        padding-left: 0;
+    }
+
+    section.licence ul.timeline li .time-box {
+        max-width: 100%;
+    }
+
+    section.licence ul.timeline li:not(:first-of-type) {
+        margin-top: 20px;
+    }
+
+    section.licence ul.timeline li .time-box:after {
+        display: none;
+    }
+
+    section.licence ul.timeline:before {
+        height: 90%;
+    }
+
+    section.contacts .overlay .contact-info ul.contact-us li {
+        overflow-wrap: break-word;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:575px) {
+    header {
+        background-image: url(../images/bg9Rotated.jpg);
+        background-size: unset;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .logo {
+        position: absolute;
+        left: 0%;
+        width: unset;
+    }
+
+    .logo img {
+        width: 70px;
+        margin-top: 5px;
+    }
+
+    .logobg {
+        width: 70px;
+        height: 60px;
+    }
+
+    section.gallery .work-gallery img {
+        width: 200px;
+        height: 90px;
+        display: inline-block;
+    }
+
+    section.gallery .work-gallery label {
+        width: 70px;
+        font-size: 15px;
+        text-align: center;
+        padding-left: 15px;
+    }
+
+    section.contacts .overlay .contact-info ul {
+
+        text-align: center;
+    }
+
+    section.contacts .overlay .contact-info .form form button {
+        width: 95%;
+        margin-bottom: 20px;
+        margin-left: 5px;
+    }
+
+
+    section.contacts .overlay .contact-info .form form .form-group input {
+
+        padding-right: 0;
+    }
+
+    .image, .percent {
+        width: 50%;
+    }
+
+    section.licence .title::before {
+        right: 0%;
+    }
+
+    nav .drop {
+        position: absolute;
+        top: 20px;
+        right: 50px;
+    }
+
+    nav button {
+        margin-right: 0px;
+    }
+
+    section.contacts .overlay .contact-info ul.social li {
+        margin-right: 5px;
+    }
+
+    section.contacts .overlay .contact-info ul.social li a svg {
+
+        width: 40px;
+        height: 40px;
+
+    }
+
+    section.contacts .overlay .contact-info {
+        margin-bottom: 50px;
+    }
+
+    .dropdown-menu {
+        right: 0;
+    }
+
+    section.statistics {
+        background-image: url(../images/bg6Rotated.jpg);
+        background-size: unset;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+    }
+
+    section.contacts {
+        background-image: url(../images/bg10Rotated.jpg);
+        background-size: unset;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+    }
+
+    section.gallery .work-gallery input.item-type-1:checked~.items .item-type-1, section.gallery .work-gallery input.item-type-2:checked~.items .item-type-2, section.gallery .work-gallery input.item-type-3:checked~.items .item-type-3 {
+
+        transform: unset;
+
+    }
+
+    .list-inline-item:not(:last-child) {
+        margin-right: 0rem;
+    }
+
+    section.statistics .overlay {
+        background-color: #10B1A1b3;
+        padding: 50px 0;
+    }
+
+}
