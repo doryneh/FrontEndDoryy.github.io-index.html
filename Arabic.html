@@ -8,14 +8,33 @@
     <title>Dory Nehme </title>
     <link rel="stylesheet" href="asset/css/bootstrap.css">
     <link rel="stylesheet" href="asset/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ar.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
     <nav class="navbar navbar-expand-lg fixed-top " id="navbar">
-       
-            <a href="Arabic.html" class="logo"> <div class="logobg"><img src="images/Logo.png" alt="logo"></div></a>
-        <div class="container d-lg-block d-none">
+
+        <a href="Arabic.html" class="logo">
+            <div class="logobg"><img src="images/Logo.png" alt="logo"></div>
+        </a>
+        <div class="drop">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="dropdown d-block d-lg-none">
+                <button class="btn btn-primary dropdown-toggle py-0" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Language
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item active" href="index.html">English</a>
+                    <a class="dropdown-item" href="Arabic.html">العربية</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
             <div class="collapse navbar-collapse  mt-md-3" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
@@ -46,19 +65,18 @@
                 </ul>
             </div>
         </div>
-        <div class="drop">
-            <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    اللغة
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item active" href="index.html">English</a>
-                    <a class="dropdown-item" href="Arabic.html">العربية</a>
+        <div class="dropdown d-none d-lg-block">
+            <button class="btn btn-primary dropdown-toggle py-0" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Language
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item active" href="index.html">English</a>
+                <a class="dropdown-item" href="Arabic.html">العربية</a>
 
-                </div>
             </div>
         </div>
+
     </nav>
     <header id="header">
         <div class="container">
@@ -348,17 +366,17 @@
                         </div>
                     </div>
                 </div>
-              
-            </div> 
-             <div class="copyright text-center">
-            <p>
-                جميع الحقوق محفوظة
-            </p>
+
+            </div>
+            <div class="copyright text-center">
+                <p>
+                    جميع الحقوق محفوظة
+                </p>
+            </div>
         </div>
-        </div>
-      
+
     </section>
-  
+
 </body>
 <script src="asset/js/jquery-3.5.1.min.js"></script>
 <script src="asset/js/bootstrap.min.js"></script>
