@@ -743,11 +743,14 @@ section.contacts .copyright p {
     section.licence .title::before {
         right: 0%;
     }
-
+    nav.navbar .container{
+        z-index: 0;
+    }
     nav .drop {
         position: absolute;
         top: 32px;
         right: 50px;
+        z-index: 1;
     }
 
     nav button {

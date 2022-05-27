@@ -744,12 +744,15 @@ section.contacts .copyright p {
         left: 0%;
     }
 
+    nav.navbar .container{
+        z-index: 0;
+    }
     nav .drop {
         position: absolute;
         top: 32px;
         left: 50px;
+        z-index: 1;
     }
-
     nav button {
         margin-left: 0px;
     }
