@@ -639,6 +639,7 @@ section.contacts .copyright p {
 
     nav.navbar.noTransparrent button.navbar-toggler {
         margin: 0;
+        margin-left: 10px ;
     }
 
     nav.navbar ul {
@@ -741,7 +742,7 @@ section.contacts .copyright p {
     }
 
     section.licence .title::before {
-        left: 0%;
+        left: unset;
     }
 
     nav.navbar .container{
