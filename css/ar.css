@@ -291,7 +291,7 @@ section.licence ul.timeline li::before {
 
 section.licence ul.timeline li:nth-of-type(even) {
     direction: ltr;
-    text-align: left;
+    text-align: right;
 }
 
 section.licence ul.timeline li:nth-of-type(even) .time-box h4 span {
