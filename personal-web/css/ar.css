@@ -99,7 +99,7 @@ nav button {
 }
 
 header {
-    background-image: url(https://www.getunik.com/wp-content/uploads/2019/07/damian-zaleski-RYyr-k3Ysqg-unsplash.jpg);
+    background-image: url(../images/bg9.jpg);
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -137,9 +137,7 @@ ul.list-inline {
     margin-bottom: 40px;
 }
 
-ul.list-inline li {
-    margin-right: 15px;
-}
+
 
 ul.list-inline li a svg {
     margin-top: 10px;
@@ -152,13 +150,19 @@ ul.list-inline li a {
 }
 
 ul.list-inline li {
-    width: 50px !important;
-    height: 50px !important;
+    width: 50px ;
+    height: 50px;
     background-color: white;
     border: 1px solid #2A2A2A;
     border-radius: 50%;
 }
-
+ul.list-inline li:first-child{
+    margin-right: 0px;
+}
+.list-inline-item:not(:last-child){
+    margin-left: 0.5rem;
+    margin-right: 0px;
+}
 header .MainCard h2 {
     font-size: 15px;
     line-height: 30px;
@@ -184,7 +188,7 @@ header .MainCard>a {
 }
 
 section.licence {
-    padding: 120px 0 50px;
+    padding: 150px 0 50px;
     background-color: rgb(77, 64, 189, .2);
 }
 
@@ -295,9 +299,8 @@ section.licence ul.timeline li:nth-of-type(even) {
 }
 
 section.licence ul.timeline li:nth-of-type(even) .time-box h4 span {
-    margin-left: 0;
-    margin-right: 25px;
-    float: left;
+    margin-left: 25px;
+    margin-right: 0;
 }
 
 section.licence ul.timeline li:nth-of-type(even) .time-box::after {
@@ -313,7 +316,7 @@ section.licence ul.timeline li:not(:first-of-type) {
 }
 
 section.statistics {
-    background-image: url(https://d1af89beukha9h.cloudfront.net/wp-content/uploads/2014/10/smart-education.jpg);
+    background-image: url(../images/bg6.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -394,8 +397,7 @@ section.gallery .work-gallery label {
 }
 
 section.gallery .work-gallery img {
-    width: 400px;
-    height: 180px;
+    height: 100%;
 }
 
 section.gallery .work-gallery label:hover {
@@ -429,7 +431,7 @@ section.gallery .work-gallery .items .item {
 }
 
 section.contacts {
-    background-image: url(https://images.vrt.be/orig/2018/09/18/1e51b545-bb27-11e8-abcc-02b7b76bf47f.jpg);
+    background-image: url(../images/bg10.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -507,7 +509,7 @@ section.contacts .overlay .contact-info .form form button {
     padding: 10px 30px;
     border: 2px solid #10B1A1;
     border-radius: 3px;
-    margin-right: 15px;
+    width: 100%;
 }
 
 section.contacts .overlay .contact-info ul.contact-us li {
@@ -559,9 +561,7 @@ section.contacts .copyright p {
         font-size: 12px;
     }
 
-    ul.list-inline li {
-        margin-right: 0px;
-    }
+
 
     section.licence .title::before {
         left: unset;
@@ -576,7 +576,6 @@ section.contacts .copyright p {
     }
 
     ul.list-inline li {
-        margin-right: 10px;
         margin-bottom: 20px;
 
     }
@@ -612,14 +611,8 @@ section.contacts .copyright p {
         align-items: center;
     }
 }
-
-
 @media (max-width: 767px) {
 
-
-    ul.list-inline li {
-        margin-right: 10px;
-    }
 
     nav.navbar .container {
         width: 100%;
@@ -686,7 +679,7 @@ section.contacts .copyright p {
 
     header {
         background-image: url(../images/bg9Rotated.jpg);
-        background-size: unset;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
     }
@@ -707,11 +700,7 @@ section.contacts .copyright p {
         height: 60px;
     }
 
-    section.gallery .work-gallery img {
-        width: 200px;
-        height: 90px;
-        display: inline-block;
-    }
+ 
 
     section.gallery .work-gallery label {
         width: 70px;
@@ -726,9 +715,8 @@ section.contacts .copyright p {
     }
 
     section.contacts .overlay .contact-info .form form button {
-        width: 95%;
         margin-bottom: 20px;
-        margin-right: 5px;
+        margin-right: 0px;
     }
 
 
@@ -779,7 +767,7 @@ section.contacts .copyright p {
 
     section.statistics {
         background-image: url(../images/bg6Rotated.jpg);
-        background-size: unset;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
 
@@ -787,7 +775,7 @@ section.contacts .copyright p {
 
     section.contacts {
         background-image: url(../images/bg10Rotated.jpg);
-        background-size: unset;
+        background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
 
